@@ -1,0 +1,228 @@
+{
+	"pages": [{
+			"path": "pages/play/play",
+			"style": {
+				"navigationBarTitleText": "喵喵玩",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "喵喵聊",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/list/list",
+			"style": {
+				// #ifndef APP-PLUS
+				"enablePullDownRefresh": true,
+				// #endif
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/my/home",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		}, {
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "隐私政策"
+			}
+		}, {
+			"path": "pages/my/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}, {
+			"path": "pages/my/service",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/secret/secret",
+			"style": {
+				"navigationBarTitleText": "你有什么小秘密吗？",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/grid/grid",
+			"style": {
+				//#ifndef MP
+				"navigationStyle": "custom"
+				//#endif
+			}
+		}, 
+	 {
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "喵喵聊",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/read/read",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        },
+		{
+		    "path" : "pages/listen/listen",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/phone/phone",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/exchange/exchange",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom",
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wall/wall",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/set/set",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/zero-chat/zero-chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/privacy/privacy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/physho/physho",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom",
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/suggestion/suggestion",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "心理建议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		// #ifdef H5
+		"h5": {
+			"titleNView": false
+		},
+		// #endif
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "登录",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": false,
+		// "maxWidth":375,
+		"rpxCalcMaxDeviceWidth": 375,
+		"rpxCalcBaseDeviceWidth": 375
+		// "rpxCalcIncludeWidth":0
+	},
+	"tabBar": {
+		"custom": true,
+		"color": "#7A7E83",
+		"selectedColor": "#CE915B",
+		"list": [{
+				"pagePath": "pages/play/play",
+				"text": "玩耍",
+				"iconPath": "/static/cat_one.png",
+				"selectedIconPath": "/static/cat_one_selected.png"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"text": "聊天",
+				"iconPath": "/static/cat_two.png",
+				"selectedIconPath": "/static/cat_two_selected.png"
+			},
+			{
+				"pagePath": "pages/physho/physho",
+				"text": "心理",
+				"iconPath": "/static/cat_two.png",
+				"selectedIconPath": "/static/cat_two_selected.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "/static/cat_three.png",
+				"selectedIconPath": "/static/cat_three_selected.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "wyb-modal": "../third-party/wyb-modal/wyb-modal"
+  }
+}

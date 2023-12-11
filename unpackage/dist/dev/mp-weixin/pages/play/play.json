@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "喵喵玩",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tqb-tabbar": "../../components/tqb-tabbar/tqb-tabbar"
+  }
+}

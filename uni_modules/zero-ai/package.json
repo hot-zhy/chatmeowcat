@@ -1,0 +1,94 @@
+{
+  "id": "zero-ai",
+  "displayName": "zero-ai (打造一个属于自己的chatgpt)",
+  "version": "1.1.1",
+  "description": "基于 uni-ai 打造属于自己的gpt,无需魔法,无需key,支持流式响应。这是一个`纯净版`的页面模板插件,无需登录,无需广告,无需积分. 可供自己或团队内部,企业内部使用.",
+  "keywords": [
+    "zero",
+    "chat,gpt,chatgpt",
+    "openai,gpt3.5",
+    "ai,人工智能,ai对话,ai聊天",
+    "流式"
+],
+  "repository": "",
+  "engines": {
+    "HBuilderX": "^3.8.7"
+  },
+  "dcloudext": {
+    "type": "unicloud-template-page",
+    "sale": {
+      "regular": {
+        "price": "9.99"
+      },
+      "sourcecode": {
+        "price": "29.99"
+      }
+    },
+    "contact": {
+      "qq": "3925704523"
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
+    },
+    "npmurl": ""
+  },
+  "uni_modules": {
+    "dependencies": [
+		"uni-icons",
+		"uni-popup",
+		"uni-dateformat"
+	],
+    "encrypt": [
+		
+	],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y"
+      },
+      "client": {
+        "Vue": {
+          "vue2": "y",
+          "vue3": "y"
+        },
+        "App": {
+          "app-vue": "u",
+          "app-nvue": "u"
+        },
+        "H5-mobile": {
+          "Safari": "u",
+          "Android Browser": "u",
+          "微信浏览器(Android)": "u",
+          "QQ浏览器(Android)": "u"
+        },
+        "H5-pc": {
+          "Chrome": "y",
+          "IE": "u",
+          "Edge": "y",
+          "Firefox": "y",
+          "Safari": "y"
+        },
+        "小程序": {
+          "微信": "y",
+          "阿里": "u",
+          "百度": "u",
+          "字节跳动": "u",
+          "QQ": "u",
+          "钉钉": "u",
+          "快手": "u",
+          "飞书": "u",
+          "京东": "u"
+        },
+        "快应用": {
+          "华为": "u",
+          "联盟": "u"
+        }
+      }
+    },
+    "extends": {
+        "sn": "3b2Z97LG7y1+migHuof/eLoo7ReMjAbbeUleuaPW192KPvcx6dfSz0rvR5RuaibByPwX3AL+S/PmajQBtuX6xciPOwmhhnuEM+zjshYx8XmPQdvdG5PcBKpE+j7k2ZdSzP5amtdImy5u5cYmaS8oN20k3zMQQcSVtiipznWW6ZJE9jLMKy4h+n9cNQotO03usWVW19HspqIdf6txgKmp0THFGCG5uAQubUT7AVr38MTmV1mITcQGOaom4db6trhdjsmQ0EQXbzVNbCwv8uKi+nkPMZ7q3535Zw/20FY9CHXqLt+9fesaMiYXC2b+OvVWzim/BBNEQ+H77XEP9FqGNehsHqHmK7z7ORv1xNEgyr/607Gf0rvxPUH3xibu56eUY+ZWU6e+Mjzdhd2t0dRG/I3m++349z9o2c2+oQ4k9znQ9QA0MyXV7kE4ZH5v4Em7u7cvmxP8sNWmNBxVRURwgrsN48DNS+iK8irzfrlpQw0="
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import "../../lib/highlight/github-dark.min.css";
+
+/* #ifndef APP-NVUE */
+.rich-text-box {
+	max-width: 100%;
+}
+.rich-text-box ::v-deep pre.hljs {
+	padding: 5px 8px;
+	margin: 5px 0;
+	overflow: auto;
+}
+
+.rich-text-box ::v-deep table {
+	border-spacing: 0;
+}
+
+.rich-text-box ::v-deep th,
+.rich-text-box ::v-deep td
+{
+	border: 1px solid #666;
+	padding:3px 5px;
+}
+
+.cursor {
+	display: none;
+}
+
+.show-cursor .cursor {
+	display: inline-block;
+	color: blue;
+	font-weight: bold;
+	animation: blinking 1s infinite;
+}
+
+@keyframes blinking {
+	from {
+		opacity: 1.0;
+	}
+
+	to {
+		opacity: 0.0;
+	}
+}
+
+/* #endif */

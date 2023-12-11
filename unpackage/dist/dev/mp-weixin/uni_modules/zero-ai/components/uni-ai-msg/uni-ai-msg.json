@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-dateformat": "../../../uni-dateformat/components/uni-dateformat/uni-dateformat"
+  }
+}

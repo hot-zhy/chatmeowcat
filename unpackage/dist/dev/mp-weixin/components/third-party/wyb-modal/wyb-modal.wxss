@@ -1,0 +1,80 @@
+
+.wyb-modal {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		z-index: 10080;
+		overflow: hidden;
+}
+.wyb-modal-title {
+		width: 100%;
+		height: 70rpx;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		font-size: 35rpx;
+}
+.wyb-modal-content {
+		width: 100%;
+		flex: 1;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		box-sizing: border-box;
+		font-size: 30rpx;
+}
+.wyb-modal-line {
+		width: 100%;
+		height: 1px;
+		background-color: #f1f1f1;
+}
+.wyb-modal-btns {
+		width: 100%;
+		height: 100rpx;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.wyb-modal-btn-box {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		font-size: 35rpx;
+}
+.wyb-modal-cancel,
+	.wyb-modal-confirm {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+}
+.wyb-modal-cancel-hover {
+		background-color: rgba(0, 0, 0, 0.08) !important;
+}
+.wyb-modal-confirm-hover {
+		background-color: rgba(0, 0, 0, 0.08) !important;
+}
+.wyb-modal-loader {
+		width: 35rpx;
+		height: 35rpx;
+		position: relative;
+		animation: loading .75s infinite linear;
+}
+.wyb-modal-loader,
+	.wyb-modal-loader:after {
+		border-radius: 50%;
+}
+@keyframes loading {
+0% {
+			transform: rotate(0deg);
+}
+100% {
+			transform: rotate(360deg);
+}
+}

@@ -1,0 +1,21 @@
+
+.relative1 {
+		min-height: 100%;
+		width: 100%;
+		position: relative;
+}
+.pic_background {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+}
+.container1 {
+
+		height: 100%;
+
+		width: 100%;
+
+		flex-direction: column;
+
+		position: absolute;
+}

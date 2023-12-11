@@ -1,0 +1,16 @@
+
+.agreement-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-left: 5vw;
+		padding-right: 5vw;
+		padding-bottom: 5vw;
+		font-size: 35rpx;
+}
+.title {
+		padding-top: 5vw;
+		font-size: 40rpx;
+		font-weight: bold;
+}

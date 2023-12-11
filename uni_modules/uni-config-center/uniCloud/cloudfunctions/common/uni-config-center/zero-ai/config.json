@@ -1,0 +1,11 @@
+{
+	"spentScore": 0,
+	"assignRole": "",
+	"assignRoleErrorTips": "插件仅供样式交互演示",
+	"llm": {
+		"provider": "azure"
+	},
+	"chatCompletionOptions": {
+		"tokensToGenerate": 512
+	}
+}

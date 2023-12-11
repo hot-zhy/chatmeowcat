@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/play/play",
+    "pages/index/index",
+    "pages/list/list",
+    "pages/my/my",
+    "pages/my/home",
+    "pages/my/index",
+    "pages/my/set",
+    "pages/my/service",
+    "pages/secret/secret",
+    "pages/grid/grid",
+    "pages/chat/chat",
+    "pages/read/read",
+    "pages/listen/listen",
+    "pages/phone/phone",
+    "pages/exchange/exchange",
+    "pages/wall/wall",
+    "pages/set/set",
+    "pages/zero-chat/zero-chat",
+    "pages/privacy/privacy",
+    "pages/user/user",
+    "pages/physho/physho",
+    "pages/suggestion/suggestion"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "登录",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": false,
+    "rpxCalcMaxDeviceWidth": 375,
+    "rpxCalcBaseDeviceWidth": 375
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#CE915B",
+    "list": [
+      {
+        "pagePath": "pages/play/play",
+        "text": "玩耍",
+        "iconPath": "/static/cat_one.png",
+        "selectedIconPath": "/static/cat_one_selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "聊天",
+        "iconPath": "/static/cat_two.png",
+        "selectedIconPath": "/static/cat_two_selected.png"
+      },
+      {
+        "pagePath": "pages/physho/physho",
+        "text": "心理",
+        "iconPath": "/static/cat_two.png",
+        "selectedIconPath": "/static/cat_two_selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/static/cat_three.png",
+        "selectedIconPath": "/static/cat_three_selected.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

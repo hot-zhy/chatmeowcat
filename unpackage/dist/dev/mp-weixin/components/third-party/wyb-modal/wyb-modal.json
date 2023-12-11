@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "wyb-popup": "../wyb-popup/wyb-popup"
+  }
+}

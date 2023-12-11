@@ -1,0 +1,1 @@
+<view><view class="agreement-text"><text class="title">{{a}}</text><text>{{b}}</text></view></view>

@@ -1,0 +1,1 @@
+<view><view wx:if="{{a}}"><view class="cont"><rich-text nodes="{{b}}"/></view></view></view>

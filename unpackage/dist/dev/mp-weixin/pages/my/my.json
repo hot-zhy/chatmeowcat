@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tqb-tabbar": "../../components/tqb-tabbar/tqb-tabbar"
+  }
+}
